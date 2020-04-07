@@ -18,11 +18,13 @@ def palindrome_check(line):
 def punccheck(line):
     # Declaring what the punctuation marks are
     punctuation_marks = '''!@#$%^&*()-;:'"/?.,><'''
-    for x in line.lower():
-        if x in punctuation_marks:
-            line = line.replace(x, "")
+    for a in line.lower():
+        if a in punctuation_marks:
+            line = line.replace()
     # This will reprint the string without the punctuation marks
-    print(line)
+            if line == 0 or 1:
+                print(line)
+
 
 
 
